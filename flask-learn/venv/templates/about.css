@@ -1,0 +1,52 @@
+body {
+	background-color: #f1f1f1;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: cyan;
+	padding: 10px;
+}
+
+nav {
+	text-align: center;
+}
+
+nav a {
+	display: inline-block;
+	margin: 0 10px;
+	color: white;
+	text-decoration: none;
+}
+
+nav a.current {
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 36px;
+}
+
+.languages {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.languages ul {
+	list-style: none;
+	padding: 0;
+}
+
+.languages li {
+	display: inline-block;
+	margin: 0 10px;
+	font-weight: bold;
+}
+
+.smiley {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 72px;
+}
