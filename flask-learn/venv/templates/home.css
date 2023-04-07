@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header, footer {
+  background-color: whitesmoke;
+}
+
+nav {
+  background-color: cyan;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.current {
+  font-weight: bold;
+}
+
+.italic-bold {
+  font-style: italic;
+  font-weight: bold;
+}
