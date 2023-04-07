@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Phil Collins</h1>
+        <h2>Software Engineer</h2>
+        <img src="git.jpg" alt="git">
+    </div>
+    <div class="content">
+        <div class="left-column">
+            <h3>Education</h3>
+            <ul>
+                <li>BTech in Electrical and Electronics Engineering, The Technical University of Kenya</li>
+                <li>Certificate in Software Engineering, ALX Holberton</li>
+            </ul>
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>MySQL</li>
+                <li>Flask</li>
+                <li>C</li>
+                <li>Git</li>
+                <li>Autodesk</li>
+            </ul>
+            <h3>Hobbies & Interests</h3>
+            <ul>
+                <li>Soccer</li>
+                <li>Reading</li>
+                <li>Camping</li>
+                <li>Volunteering</li>
+            </ul>
+        </div>
+        <div class="right-column">
+            <img src="profile.jpg" alt="Profile Picture">
+            <div class="links button-links">
+                <button onclick="window.open('https://www.linkedin.com/in/phil-collins')">LinkedIn</a>
+                <button onclick="viewResume()">View Resume</button>
+                <button onclick="window.open('https://github.com/username')">GitHub</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function viewResume() {
+            window.open('resume.pdf');
+        }
+    </script>
+
+</body>
+</html>
